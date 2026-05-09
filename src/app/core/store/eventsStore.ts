@@ -51,7 +51,7 @@ export type EventModel = {
 	conditions: EventCondition[];
 };
 
-const EVENTS: EventModel[] = [
+export const EVENTS: EventModel[] = [
 	{
 		id: 'global-tech-synergy-2024',
 		slug: 'global-tech-synergy-2024',
